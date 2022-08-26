@@ -6,6 +6,6 @@ setup(
    description='Wrapper around Flask-RESTful',
    author='The LunarPY project',
    author_email='lunarpygroup@gmail.com',
-   packages=['lunarapi'],
+   py_modules=['lunarapi'],
    install_requires=['flask-restful'],
 )
