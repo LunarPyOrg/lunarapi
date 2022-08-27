@@ -28,7 +28,12 @@ import lunarapi
 
 data = "Data That will be sent"
 
-lunarapi.init("Name of the application", data, Debug=True, Randomic=True)
+lunarapi.init(Appname="My Awesome app",
+                DataInput=data,
+                Debug=True,
+                Randomic=True,
+                URL="/")
 # Debug - Enable debug mode
 # Randomic - Enable random requests
+# URL - What subdomain the API will be served
 ```
